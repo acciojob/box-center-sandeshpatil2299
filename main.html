@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 
-<html>
+<html style="width: 100%; height: 100%;">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 100%;
+            height: 100%;
+            border: 2px solid red;
+        }
+        #square {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+            left: 50%;
+            top: 50%;   
+            position: absolute;
+            transform: translate(-50%, -50%);
+        }
+        p {
+            position: absolute;
+            left: 50%;
+            top: 50%;   
+            position: absolute;
+            transform: translate(-50%, -50%);
+            color: purple;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+    <!-- the entire body must be written by student -->
+    <div id="square"><p>This is center</p></div>
+
     <script type="text/javascript" src="./script.js">
-</script>
+    </script>
 
 </body>
-
 </html>
